@@ -1,0 +1,3 @@
+## 2024-05-18 - Scoping Mutation State in Action Lists
+**Learning:** When using React Query mutations (or any global loading state) inside a list of items, mapping the `isPending` state directly causes all buttons in the list to visually show a loading state when only one was clicked. This creates a confusing and poor user experience, as the user might think an action is being applied to all items.
+**Action:** Always scope loading and disabled states to the specific item being interacted with by checking `mutation.variables === item.id` in addition to `mutation.isPending`. Additionally, always provide item-specific `aria-label`s (e.g. `aria-label="Save job ${job.title}"`) to disambiguate identical-looking action buttons for screen reader users.
