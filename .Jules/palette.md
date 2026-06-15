@@ -1,0 +1,3 @@
+## 2024-04-26 - Scoped Loading States for List Mutations
+**Learning:** Using global React Query mutation state (`mutation.isPending`) inside a mapped list causes all items in the list to show loading states simultaneously when an action is performed on a single item. This creates a confusing and poor user experience, as it incorrectly signals that the action applies globally.
+**Action:** Always scope loading and disabled states in mapped lists to the specific item by checking `mutation.variables === item.id` alongside `mutation.isPending`. This ensures only the activated item shows the loading state, maintaining clear feedback mapping for the user.
