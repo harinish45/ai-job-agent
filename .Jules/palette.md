@@ -1,0 +1,3 @@
+## 2024-06-30 - Scoped Loading States for List Mutations
+**Learning:** When using React Query mutations (like `useMutation`) inside a rendered list of items, relying solely on `mutation.isPending` will cause all items in the list to show a loading/disabled state simultaneously when only one item's action was triggered. This is confusing and degrades the user experience.
+**Action:** Always scope loading and disabled states to the specific item being acted upon by checking if the mutation's current variables match the item's identifier (e.g., `mutation.isPending && mutation.variables === item.id`). Also ensure proper visual feedback by applying `disabled:opacity-50 disabled:cursor-not-allowed` styles.
