@@ -1,0 +1,3 @@
+## 2025-07-05 - Hover-only dropdown menus completely exclude keyboard users
+**Learning:** Found a common pattern where simple dropdown menus use only CSS `group-hover:block` for visibility. While clean, this completely breaks keyboard accessibility because tabbing to the toggle button won't reveal the menu items, making them impossible to reach or interact with without a mouse.
+**Action:** Always pair `group-hover:block` with `group-focus-within:block` (or similar focus-based visibility) when building CSS-only dropdowns. Additionally, ensure the toggle has `aria-haspopup="menu"`, the container has `role="menu"`, and the items have `role="menuitem"` for proper screen reader context. Use `focus-visible:ring-2` to clearly show which element currently holds focus.
