@@ -1,0 +1,3 @@
+## 2024-05-21 - Scope React Query Mutation State in Lists
+**Learning:** When using React Query mutations inside a list of items (like a job list), using `mutation.isPending` on buttons without checking the specific item's ID causes all buttons in the list to appear in a loading or disabled state simultaneously. This creates a confusing user experience where it seems like multiple actions are happening at once.
+**Action:** Always scope loading and disabled states to the specific item by checking `mutation.variables === item.id` to ensure only the interacted item shows the loading indicator or gets disabled.
