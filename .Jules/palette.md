@@ -1,0 +1,3 @@
+## 2024-06-28 - Scoping React Query Mutations in Lists
+**Learning:** When using React Query mutations (like `useMutation`) inside a component that renders a list of items, the mutation`s state (`isPending`, `isSuccess`) is shared globally for that mutation instance. If you use `mutation.isPending` to show a loading state or disable a button, ALL buttons in the list will reflect that state simultaneously, leading to confusing UX where unrelated items appear to be loading.
+**Action:** Scope loading and disabled states to the specific item being acted upon by checking if the mutation`s active variable matches the item`s ID: `mutation.isPending && mutation.variables === item.id`.
