@@ -1,0 +1,1 @@
+## 2024-03-24 - Scoped Loading States\n**Learning:** When using React Query mutations inside a list of items, global loading states can trigger loading indicators across all list items, creating a confusing UX.\n**Action:** Always scope loading and disabled states to the specific item by checking `mutation.variables === item.id`.
