@@ -1,0 +1,34 @@
+Harinish S V
+Email: harinish@example.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/harinish
+GitHub: github.com/harinish45
+Location: San Francisco, CA
+
+SUMMARY
+Senior Software Engineer with 6+ years of experience in Python, distributed backend architectures, and machine learning platforms. Skilled in building microservices, optimizing data pipelines, and implementing autonomous agents.
+
+SKILLS
+Programming: Python, TypeScript, SQL, Bash, Go
+Frameworks: FastAPI, Django, React, Next.js
+AI/ML: PyTorch, HuggingFace, OpenAI, LangChain, Transformers, Machine Learning, Deep Learning, RAG
+Cloud & DevOps: AWS, Docker, Kubernetes, Terraform, CI/CD, Linux
+Databases: PostgreSQL, Redis, MongoDB, Kafka, Snowflake
+
+EXPERIENCE
+Senior Software Engineer at Nexus AI
+2022 - Present
+- Designed high-throughput microservices using FastAPI and PostgreSQL handling 50k requests/sec.
+- Architected RAG workflows utilizing LangChain and OpenAI embeddings to reduce document retrieval latency by 45%.
+- Implemented automated CI/CD pipelines with GitHub Actions and Docker reducing release cycle times.
+
+Software Engineer at CloudScale Systems
+2019 - 2022
+- Developed scalable REST APIs using Django and PostgreSQL.
+- Optimized Redis caching layer, decreasing p99 latency by 60%.
+- Mentored junior engineers and led agile sprint planning meetings.
+
+EDUCATION
+Bachelor of Engineering in Computer Science
+Accredited University
+2015 - 2019

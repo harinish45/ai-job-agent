@@ -1,0 +1,23 @@
+Job Title: Senior AI & Python Platform Engineer
+Company: AnthroCorp Technologies
+Location: Remote (US)
+
+About the Role:
+We are looking for a Senior AI & Python Platform Engineer with 5+ years of experience to join our core intelligence team. You will build and scale AI-native autonomous microservices, design RAG retrieval pipelines, and optimize our cloud infrastructure.
+
+Key Responsibilities:
+- Design, build, and maintain production FastAPI and Python microservices.
+- Develop retrieval-augmented generation (RAG) pipelines and LLM integrations.
+- Manage containerized deployments on AWS using Docker and Kubernetes.
+- Collaborate with cross-functional teams in an Agile environment.
+
+Requirements:
+- 5+ years of professional software engineering experience.
+- Strong proficiency in Python, FastAPI, and PostgreSQL.
+- Experience with AI/ML tools: PyTorch, LangChain, OpenAI, and vector embeddings.
+- Hands-on expertise with AWS, Docker, CI/CD, and Redis.
+- Solid understanding of distributed systems and microservice architecture.
+
+Preferred:
+- Experience with Kubernetes and Terraform.
+- Prior experience in remote-first engineering teams.
